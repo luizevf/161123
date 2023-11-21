@@ -22,23 +22,9 @@ import lombok.Setter;
 
 public class Funcionario {
 
-@Column(name = "UserId")
-private Long UserId;  
-
 @Column(name = "IsAdmin")
 private Boolean IsAdmin;
 
-@Column(name = "Nome")
-private String Nome;
-
-@Column(Name = "Sobrenome")
-private String Sobrenome;
-
-@Column(name = "Email")
-private String Email;
-
-@Column(name = "Senha")
-private String Senha;
 
 
 }
